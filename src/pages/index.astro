@@ -35,7 +35,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
+        以匠心造物 · 以创意聚美
       </h1>{" "}
       <a
         target="_blank"
@@ -53,20 +53,28 @@ const homePath = getRelativeLocaleUrl(locale, "");
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        绘世阁—聚美创物，是以传统非遗工艺为根基、融合现代数字制造与潮流
+        设计的文创工作室。主理人为<span class="font-semibold"
+          >甘肃省工艺美术大师、西安市非遗火笔烫画传承人</span
+        >，深耕火笔烫画、掐丝珐琅（景泰蓝）等传统技艺，并积极探索非遗与 3D
+        打印、潮玩盲盒、文旅 IP 衍生品的创新结合。
       </p>
       <p class="mt-2">
-        Read the blog posts or check{" "}
+        浏览下方精选作品，或前往{" "}
         <LinkButton
           class="hover:text-accent underline decoration-dashed underline-offset-4"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href={getRelativeLocaleUrl(locale, "about")}
         >
-          README
-        </LinkButton>{" "}
-        for more info.
+          关于我
+        </LinkButton>
+        {" "}与{" "}
+        <LinkButton
+          class="hover:text-accent underline decoration-dashed underline-offset-4"
+          href={getRelativeLocaleUrl(locale, "contact")}
+        >
+          联系页
+        </LinkButton>
+        {" "}了解更多。
       </p>
       {
         socials.length > 0 && (
