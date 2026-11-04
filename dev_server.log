@@ -1,0 +1,15 @@
+
+> astro-paper-v6@7.0.0 dev
+> astro dev
+
+Another astro dev server is already running.
+
+  URL:  http://localhost:4321
+  PID:  61064
+
+Run `astro dev stop` to stop it, or use `astro dev --force` to replace it.
+  [1mLocation:[22m
+    [4mC:\Users\守艺人\portfolio\node_modules\astro\dist\cli\dev\index.js:182:10[24m
+  [1mStack trace:[22m
+[2m    at dev (file:///C:/Users/%E5%AE%88%E8%89%BA%E4%BA%BA/portfolio/node_modules/astro/dist/cli/dev/index.js:182:10)
+    at async runCommand (file:///C:/Users/%E5%AE%88%E8%89%BA%E4%BA%BA/portfolio/node_modules/astro/dist/cli/index.js:170:19)[22m

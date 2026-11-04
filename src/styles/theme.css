@@ -7,28 +7,28 @@
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
-  --font-app: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", system-ui, sans-serif;
+  --font-app: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", "Songti SC", "STSong", "SimSun", system-ui, serif;
 }
 
-/* Light theme values */
+/* Light theme values —— 中国风：宣纸米底 + 墨色文字 + 朱砂红点缀 */
 :root,
 [data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
+  --background: #f7f2e8;
+  --foreground: #33302a;
+  --accent: #a63d2f;
   --accent-foreground: #ffffff;
-  --muted: #e6e6e6;
-  --muted-foreground: #6b7280;
-  --border: #ece9e9;
+  --muted: #eae2d2;
+  --muted-foreground: #776e5f;
+  --border: #d9cdb8;
 }
 
-/* Dark theme values */
+/* Dark theme values —— 中国风：黛青底 + 米白文字 + 鎏金点缀 */
 [data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --accent-foreground: #ffffff;
-  --muted: #343f60;
-  --muted-foreground: #afb9ca;
-  --border: #ab4b08;
+  --background: #222a34;
+  --foreground: #ede7da;
+  --accent: #c7a15e;
+  --accent-foreground: #2a2218;
+  --muted: #2d3642;
+  --muted-foreground: #aba18d;
+  --border: #8c7342;
 }
