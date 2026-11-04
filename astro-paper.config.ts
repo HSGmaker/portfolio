@@ -4,7 +4,7 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://astro-paper.pages.dev/",
     title: "绘世阁—聚美创物",
-    description: "非遗火笔烫画、掐丝景泰蓝与3D打印潮玩文创作品集",
+    description: "非遗火笔烫画、掐丝珐琅DIY与3D打印潮玩文创作品集",
     author: "绘世阁—聚美创物",
     profile: "https://astro-paper.pages.dev/",
     ogImage: "default-og.jpg",
