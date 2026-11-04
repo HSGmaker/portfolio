@@ -1,0 +1,11 @@
+{
+  // 项目名称，同时决定 workers.dev 子域名前缀
+  "name": "portfolio",
+  "compatibility_date": "2026-11-04",
+  // 纯静态站点：直接托管 Astro 构建产物 dist，无需 Worker 脚本
+  "assets": {
+    "directory": "./dist",
+    // 找不到页面时使用 Astro 生成的 404 页面
+    "not_found_handling": "404-page"
+  }
+}
